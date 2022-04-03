@@ -15,11 +15,11 @@
 
 <body>
   <div class="navbar">
-    <a href="./specials.html" class="navbar-link ">SPECIALS</a>
-    <a href="#main" class="navbar-link">ABOUT</a>
-    <a href="#main" class="navbar-link">MENU</a>
-    <a href="#main" class="navbar-link">CHEF</a>
-    <a href="#main" class="navbar-link">CONTENT</a>
+    <a class="navbar-link " onclick="transform_to_active(this)">SPECIALS</a>
+    <a class="navbar-link" onclick="transform_to_active(this)">ABOUT</a>
+    <a class="navbar-link" onclick="transform_to_active(this)">MENU</a>
+    <a class="navbar-link" onclick="transform_to_active(this)">CHEF</a>
+    <a class="navbar-link" onclick="transform_to_active(this)">CONTACT</a>
   </div>
   <img class="header" src="./Images/header.jpg">
 
@@ -31,20 +31,194 @@
     <div class="plates">
       <h2>Lorem ipsum dolor</h2>
       <img style="max-width: 100%; max-height: 100%;" src="./Images/1.jpg">
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.</h4>
+      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.
+      </h4>
     </div>
     <div class="plates">
       <h2>Consectetur adipiscing</h2>
       <img style="max-width: 100%; max-height: 100%;" src="./Images/2.jpg">
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.</h4>
+      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.
+      </h4>
     </div>
     <div class="plates">
       <h2>Duis sed dapibus</h2>
       <img style="max-width: 100%; max-height: 100%;" src="./Images/1.jpg">
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.</h4>
+      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.
+      </h4>
+    </div>
+  </div>
+  <div class="container">
+    <img class="storyImage" src="./Images/gallery-bg.jpg">
+    <div class="text">
+      <h1>Our Story</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh
+        ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh
+        ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+    </div>
+  </div>
+  <div class="Menu">
+    <h1>Breakfast & Starters</h1>
+    <div class="x">
+      <h3>Tortellini Skewers</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$9</h3>
+    </div>
+
+
+    <div class="x">
+      <h3>Fried Ravioli</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$7</h3>
+    </div>
+
+    <div class="x">
+      <h3>Wild Mushroom Arancini</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$9</h3>
+    </div>
+
+    <div class="x">
+      <h3>Mozzarella Sticks</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$10</h3>
     </div>
   </div>
 
+  <div class="Menu">
+    <h1>Main Course</h1>
+    <div class="x">
+      <h3>Roast Stuffed Chicken</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$18</h3>
+    </div>
+
+
+    <div class="x">
+      <h3>Chicken & Mushroom Pasta</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$20</h3>
+    </div>
+
+    <div class="x">
+      <h3>Beef Lasagne</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$14</h3>
+    </div>
+
+    <div class="x">
+      <h3>Chicken Goujons</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$19</h3>
+    </div>
+  </div>
+
+  <div class="Menu">
+    <h1>Dinner</h1>
+    <div class="x">
+      <h3>Sesame-Ginger Beef</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$15</h3>
+    </div>
+
+
+    <div class="x">
+      <h3>Crispy Fried Chicken</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$17</h3>
+    </div>
+
+    <div class="x">
+      <h3>Mongolian Shrimp & Broccoli</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$18</h3>
+    </div>
+
+    <div class="x">
+      <h3>Spicy Coconut Salmon</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$20</h3>
+    </div>
+  </div>
+
+  <div class="Menu">
+    <h1>Desserts</h1>
+    <div class="x">
+      <h3>Chocolate Mud Cake</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$11</h3>
+    </div>
+
+
+    <div class="x">
+      <h3>Bourbon-Pecan Tart</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$14</h3>
+    </div>
+
+    <div class="x">
+      <h3>Texas Sheet Cake</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$15</h3>
+    </div>
+
+    <div class="x">
+      <h3>Vanilla Cheesecake</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    </div>
+    <div class="z">
+      <h3>$18</h3>
+    </div>
+  </div>
+
+  <div class="menuImage">
+    <img class="Menuimg" src="./Images/Menu/01.jpg">
+    <img class="Menuimg" src="./Images/Menu/02.jpg">
+    <img class="Menuimg" src="./Images/Menu/03.jpg">
+    <img class="Menuimg" src="./Images/Menu/04.jpg">
+  </div>
+
+  <div class="container">
+    <div class="text1">
+      <h1>Meet Our Chef</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh
+        ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh
+        ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+    </div>
+    <img class="storyImage1" src="./Images/chef.jpg">
+  </div>
+  
 
   <script src="./script.js"></script>
 </body>

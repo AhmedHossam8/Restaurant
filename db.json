@@ -1,0 +1,38 @@
+{
+    "name": "Hilton",
+    "rooms": {
+        "single": [
+            100,
+            101,
+            102,
+            103,
+            104
+        ],
+        "double": [
+            200,
+            201,
+            202,
+            203,
+            204
+        ],
+        "suite": [
+            300,
+            301,
+            302,
+            303,
+            304
+        ]
+    },
+    "guests": [
+        {
+            "Name": "Ahmed",
+            "Age": 20,
+            "Phone Number": "123",
+            "roomType": "single",
+            "roomNumber": 100
+        }
+    ],
+    "reservedRooms": [
+        100
+    ]
+}
