@@ -16,17 +16,17 @@
 <body>
   <div class="navbar">
     <div style="margin-top: 15px;">
-    <a class="navbar-link" onclick="transform_to_active(this)">SPECIALS</a>
-    <a class="navbar-link" onclick="transform_to_active(this)">ABOUT</a>
-    <a class="navbar-link" onclick="transform_to_active(this)">MENU</a>
-    <a class="navbar-link" onclick="transform_to_active(this)">CHEF</a>
-    <a class="navbar-link" onclick="transform_to_active(this)">CONTACT</a>
+    <a class="navbar-link" id="special" onclick="transform_to_active(this)">SPECIALS</a>
+    <a class="navbar-link" id="about" onclick="transform_to_active(this)">ABOUT</a>
+    <a class="navbar-link" id="menu" onclick="transform_to_active(this)">MENU</a>
+    <a class="navbar-link" id="chef" onclick="transform_to_active(this)">CHEF</a>
+    <a class="navbar-link" id="contact" onclick="transform_to_active(this)">CONTACT</a>
   </div>
   </div>
   <img class="header" src="./Images/intro-bg.jpg">
 
   <div class="center-text">
-    <h1>Our Specials</h1>
+    <h1 id="special_">Our Specials</h1>
   </div>
 
   <div class="center-text">
@@ -49,7 +49,7 @@
       </h4>
     </div>
   </div>
-  <div class="container">
+  <div id="about_" class="container">
     <div class="img-wrapper">
       <img class="storyImage" src="./Images/gallery-bg.jpg">
     </div>
@@ -61,7 +61,7 @@
         ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
     </div>
   </div>
-  <div class="MENU">
+  <div id="menu_" class="MENU">
     <h1>MENU</h1>
   </div>
   <div class="Menu">
@@ -215,7 +215,7 @@
     <img class="Menuimg" src="./Images/Menu/04.jpg">
   </div>
 
-  <div class="container">
+  <div id="chef_" class="container">
     <div class="text1">
       <h1>Meet Our Chef</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh
@@ -226,7 +226,7 @@
     <img class="storyImage1" src="./Images/chef.jpg">
   </div>
 
-  <div class="CONTACT">
+  <div id="contact_" class="CONTACT">
     <div class="reservation">
       <h2>RESERVATION</h2>
       <p>Please call</p>
